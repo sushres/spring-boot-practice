@@ -6,16 +6,8 @@ import java.util.Date;
 public class Appointment {
     private String title;
     private int id;
-    private Date date;
     private String time;
 
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
 
     public String getTime() {
         return time;
