@@ -12,8 +12,8 @@ public class AppointmentController {
         Appointment ap = new Appointment();
         ap.setTime("3:00");
         ap.setTitle("Test Appointment");
+        ap.setId(1);
         return ap;
-       // return "Greetings from Spring Boot!";
     }
 
 }
